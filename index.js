@@ -134,6 +134,10 @@ mongoose
       ]
       )
     })
+
+    .then(()=>{
+      return Model.findOneAndUpdate({title:'Rigatoni alla Genovese'}, {duration: 100})
+    })
   })
 
 
