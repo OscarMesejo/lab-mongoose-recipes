@@ -19,7 +19,7 @@ const recipeSchema = new Schema({
     required: true
   },
   dishType:{
-    type:String,
+    type: String,
     values:['breakfast', 'main_course', 'soup', 'snack', 'drink', 'dessert', 'other']
   },
   image:{
